@@ -8,8 +8,8 @@ describe Triangles do
 	end
 
 	it "should test whether a user input is a triangle or not" do
-		my_triangle = Triangles.new(2,3,4)
-		my_triangle.triangle?.should eq true
+		my_triangle = Triangles.new(2,2,8)
+		my_triangle.triangle?.should eq false
 	end
 
 	it "should test what type pf triangle the user input is, if it is a triangle" do
